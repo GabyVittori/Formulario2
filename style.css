@@ -9,7 +9,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.5);
     color: white;
     padding: 15px;
     border-radius: 15px;
@@ -27,6 +27,16 @@ legend{
     border-radius: 5px;
     text-align: center;
 }
+
+#data_nascimento{
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: "Lobster";
+    outline: none;
+
+}
+
 .inputBox{
     position: relative;    
 }
@@ -54,5 +64,18 @@ legend{
     color:rgb(222, 24, 176);
 }
 
-
+#enviar{
+    width: 100%;
+    padding: 10px;
+    font-family: "Lobster";
+    font-size: 22px;
+    border-radius: 8px;
+    border: none;
+    background-image:linear-gradient(to right, pink, rgb(222, 24, 176));
+    color: white;
+}
+#enviar:hover{
+    color: black;
+    transform: scale(0.97); 
+}
 
