@@ -1,5 +1,6 @@
 
 body{
+    
     background-image:linear-gradient(to right, pink, rgb(222, 24, 176));
     font-family: "Lobster";      
 }
@@ -78,4 +79,5 @@ legend{
     color: black;
     transform: scale(0.97); 
 }
+
 
